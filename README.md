@@ -67,7 +67,7 @@ This runs the migrations in the migrations folder. See more: https://knexjs.org/
 
 This runs the data seeds in the seeders folder. See more: https://knexjs.org/guide/migrations.html#seed-files
 
-### 6) run the application
+### 6) Run the application
 
 The application is configured to use nodemon to monitor for file changes and you can run command to start the application using it. You will see console information with url and port.
 
@@ -75,7 +75,7 @@ The application is configured to use nodemon to monitor for file changes and you
 
 NOTE: You can also run and debug the application if using vscode via the launch.json profile and debugging capabilities: https://code.visualstudio.com/docs/editor/debugging
 
-### 7) exercise the application via postman OR thunder client
+### 7) Exercise the application via postman OR thunder client
 
 #### 7.1 - Get a client
 
