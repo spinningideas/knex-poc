@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "rootDir": "./src",
+    "lib": ["es6"],
+    "target": "es6",
+    "module": "commonjs",
+    "noImplicitAny": false,
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "types": ["node"]
+  },
+  "compileOnSave": true,
+  "include": ["src/**/*.ts", "src/migrations/1-continent-migration.ts", "src/migrations/2-country-migration.ts"]
+}
