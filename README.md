@@ -31,7 +31,7 @@ Here are sql scripts to run:
 
 NOTE: run one at a time in order, first create the db then select the db and run these queries IN the new database so that the user has proper permissions to create tables and insert data.
 
-````
+```
 CREATE DATABASE knex_poc_db;
 
 CREATE ROLE knex_poc_user LOGIN PASSWORD 'SET_YOUR_PASSWORD - the_secure_password_from_Database.ts';
@@ -41,6 +41,7 @@ GRANT CONNECT ON DATABASE knex_poc_db TO knex_poc_user;
 GRANT ALL PRIVILEGES ON DATABASE knex_poc_db TO knex_poc_user;
 
 GRANT ALL ON SCHEMA public TO knex_poc_user;
+```
 
 
 After installing locally you should have a knex_poc_db server - you will need to do these steps:
